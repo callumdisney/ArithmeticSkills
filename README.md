@@ -7,4 +7,4 @@ So I did it.
 
 It's probably not the best way to do it but it's "the quick bodge it together approach" as Tom Scott would say.
 
-You can see the code [here](https://github.com/bigmancallum/ArithmeticSkills/blob/main/main.py). You can and example of the results.txt text file where your results will be stored [here](https://github.com/bigmancallum/ArithmeticSkills/blob/main/results.txt).
+You can see the code [here](https://github.com/bigmancallum/ArithmeticSkills/blob/main/main.py). You can see an example of the results.txt text file where your results will be stored [here](https://github.com/bigmancallum/ArithmeticSkills/blob/main/results.txt).
