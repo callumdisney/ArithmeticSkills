@@ -8,7 +8,7 @@ The original challenge was "Challenge 39: A primary school teacher wants a compu
 So I did it.
 
 ## What else can it do?
-I added various features not included in the original challenge question, such as choosing how many questions there are, and how what the numbers should be in between.
+I added various features not included in the original challenge question, such as choosing how many questions there are, and choosing which numbers the questions should contain (i.e. numbers between 5 and 10, etc.).
 
 ## More?
 Perhaps I will add more at some point. Perhaps not. We'll see.
