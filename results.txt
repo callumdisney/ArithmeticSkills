@@ -10,3 +10,18 @@ Score: 2
 Name: Tom
 Score: 10
 
+Name: Callum
+Score: 5
+
+Name: callum
+Score: 5
+
+Name: Callum
+Score: 5/5 (with numbers between 1 and 1
+
+Name: Callum
+Score: 1/4 (with numbers between 3.0 and 32.0
+
+Name: dsf
+Score: 0/3 (with numbers between 3.0 and 3.0
+
