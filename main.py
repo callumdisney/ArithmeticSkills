@@ -9,7 +9,7 @@ playAgain = True #Sets playAgain to True to start so game runs
 
 while playAgain == True:
 
-  input("Hello! This little quiz will ask you mathematics question. Ready? (Press enter to start) ") #Greets user and asks them to press enter to start
+  input("Hello! This little quiz will ask you mathematics questions. Ready? (Press enter to start) ") #Greets user and asks them to press enter to start
 
   #Starter questions
   name = input("\nFirst of all, what is your name? ") #Asks user for their name
@@ -25,17 +25,17 @@ while playAgain == True:
   numAllowed = False #For repeating question if error caught
   while numAllowed == False:
     try:
-      betweenFirst = float(input("\nWhat should the numbers within the questions be between? Enter the first number: "))
-    except ValueError: #Catches strings
-      print("\nMust be a number!")
+      betweenFirst = int(input("\nWhat should the numbers within the questions be between? Enter the first number: "))
+    except ValueError: #Catches if float or string given
+      print("\nMust be a whole number!")
     else:
       numAllowed = True
   numAllowed = False #For repeating question if error caught
   while numAllowed == False:
     try:
-      betweenSecond = float(input("\nWhat should the numbers within the questions be between? Enter the second number: ")) #Gets the number of questions the user wants (min 5)
-    except ValueError: #Catches strings
-      print("\nMust be a number!")
+      betweenSecond = int(input("\nWhat should the numbers within the questions be between? Enter the second number: ")) #Gets the number of questions the user wants (min 5)
+    except ValueError: #Catches if float or string given
+      print("\nMust be a whole number!")
     else:
       numAllowed = True
 
@@ -70,11 +70,11 @@ while playAgain == True:
           print (f"That is incorrect. The correct answer is {answer}.")
       except ValueError: #Catches strings
         print ("Must be a number!")
-  print (f"\nDone! Your score: {str(score)}") #Once the user has completed all questions, tell them, and output their final score
+  print (f"\nDone! Your score is {str(score)}/{str(questionNum)}, and has been saved to the log file.") #Once the user has completed all questions, tell them, and output their final score
 
   #Appends user's name and score to text file
   with open("results.txt", "a") as f:
-    f.write(f"Name: {name}\nScore: {str(score)}/{str(questionNum)} (with numbers between {str(betweenFirst)} and {str(betweenSecond)}\n\n")
+    f.write(f"Name: {name}\nNumbers {str(betweenFirst)}-{str(betweenSecond)}\nScore: {str(score)}/{str(questionNum)}\n\n")
 
   #Play again?
   playAgainQ = ""
