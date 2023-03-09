@@ -8,11 +8,11 @@ score = 0 #Sets score to 0 to start
 playAgain = True #Sets playAgain to True to start so game runs
 
 while playAgain == True:
-
+  
   input("Hello! This little quiz will ask you mathematics questions. Ready? (Press enter to start) ") #Greets user and asks them to press enter to start
 
   #Starter questions
-  name = input("\nFirst of all, what is your name? ") #Asks user for their name
+  name = (input("\nFirst of all, what is your name? ")).capitalize() #Asks user for their name
   numAllowed = False #For repeating question if error caught
   while numAllowed == False:
     try:
