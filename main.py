@@ -3,11 +3,10 @@ from operator import add, sub, mul #For operators
 
 listOfoperations = (add, sub, mul) #Creats list of operations (addition, subtraction, multiplication)
 
-score = 0 #Sets score to 0 to start
-
 playAgain = True #Sets playAgain to True to start so game runs
 
 while playAgain == True:
+  score = 0 #Sets score to 0 to start
   
   input("Hello! This little quiz will ask you mathematics questions. Ready? (Press enter to start) ") #Greets user and asks them to press enter to start
 
