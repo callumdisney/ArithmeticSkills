@@ -8,7 +8,7 @@ The original challenge was "Challenge 39: A primary school teacher wants a compu
 So I did it.
 
 ## What else can it do?
-I added various features not included in the original challenge question, such as choosing how many questions there are, and choosing which numbers the questions should contain (i.e. numbers between 5 and 10, etc.), and storing the results in a log file (there is [an example of this log file](https://github.com/bigmancallum/ArithmeticSkills/blob/main/results.txt) included in this repository).
+I added various features not included in the original challenge question, such as choosing how many questions there are, choosing which numbers the questions should contain (i.e. numbers between 5 and 10), and storing the results in a log file (there is [an example of the log file](https://github.com/bigmancallum/ArithmeticSkills/blob/main/results.txt) included in this repository).
 
 ## More?
 Perhaps I will add more at some point. Perhaps not. We'll see.
