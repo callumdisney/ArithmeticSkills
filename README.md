@@ -10,5 +10,8 @@ So I did it.
 ## What else can it do?
 I added various features not included in the original challenge question, such as choosing how many questions there are, choosing which numbers the questions should contain (i.e. numbers between 5 and 10), and storing the results in a log file (there is [an example of the log file](https://github.com/bigmancallum/ArithmeticSkills/blob/main/results.txt) included in this repository).
 
+##Versions?
+The main code is located at [main.py](https://github.com/bigmancallum/ArithmeticSkills/blob/main/main.py). There is a version wihtout the division operator, which can make for some nasty questions, located at [withoutDiv.py](https://github.com/bigmancallum/ArithmeticSkills/blob/main/withoutDiv.py).
+
 ## More?
 Perhaps I will add more at some point. Perhaps not. We'll see.
