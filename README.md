@@ -15,7 +15,7 @@ I added various features not included in the original challenge question, such a
 * Storing the results in a log file (there is [an example of the log file](https://github.com/bigmancallum/ArithmeticSkills/blob/main/results.txt) included in this repository)
 
 ## Versions?
-The main code is located at [main.py](https://github.com/bigmancallum/ArithmeticSkills/blob/main/main.py). There is a version wihtout the division operator, which can make for some nasty questions, located at [withoutDiv.py](https://github.com/bigmancallum/ArithmeticSkills/blob/main/withoutDiv.py).
+The main code is located at [main.py](https://github.com/bigmancallum/ArithmeticSkills/blob/main/main.py). There is a version wihtout the division operator located at [withoutDiv.py](https://github.com/bigmancallum/ArithmeticSkills/blob/main/withoutDiv.py), as the division operator can make for some nasty questions. 
 
 ## More?
 Perhaps I will add more at some point. Perhaps not. We'll see.
