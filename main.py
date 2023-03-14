@@ -81,8 +81,6 @@ while playAgain == True:
 
   #Play again?
   playAgainQ = ""
-  playAgainQ = input("\nWould you like to play again? (Y)es or (N)o: ")
-  playAgainQ = playAgainQ.capitalize()
   while playAgainQ not in ["Y", "N", "Yes", "No"]:
     playAgainQ = input("\nWould you like to play again? (Y)es or (N)o: ")
     playAgainQ = playAgainQ.capitalize()
