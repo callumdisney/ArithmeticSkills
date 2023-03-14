@@ -1,7 +1,7 @@
 from random import randint, choice #For random numbers and choices
-from operator import add, sub, mul #For operators
+from operator import add, sub, mul, truediv #For operators
 
-listOfoperations = (add, sub, mul) #Creats list of operations (addition, subtraction, multiplication)
+listOfoperations = (add, sub, mul, truediv) #Creats list of operations (addition, subtraction, multiplication, division)
 
 playAgain = True #Sets playAgain to True to start so game runs
 
@@ -35,6 +35,8 @@ while playAgain == True:
       betweenSecond = int(input("\nWhat should the numbers within the questions be between? Enter the second number: ")) #Gets the number of questions the user wants (min 5)
     except ValueError: #Catches if float or string given
       print("\nMust be a whole number!")
+    if betweenSecond < betweenFirst:
+      print ("Second number must be larger than or equal to the first!")
     else:
       numAllowed = True
 
@@ -55,6 +57,8 @@ while playAgain == True:
       operation = "-"
     if operation == "<built-in function mul>": #Multiplication
       operation = "*"
+    if operation == "<built-in function truediv>": #Division
+      operation = "/"
     
     userAnswerAllowed = False
     while userAnswerAllowed == False:
