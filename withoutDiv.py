@@ -75,7 +75,7 @@ while playAgain == True:
 
   #Appends user's name and score to text file
   with open("results.txt", "a") as f:
-    f.write(f"Name: {name}\nNumbers: {str(betweenFirst)}-{str(betweenSecond)}\nScore: {str(score)}/{str(questionNum)}\n\n")
+    f.write(f"Name: {name}\nNumbers: {str(betweenFirst)}-{str(betweenSecond)}\nScore: {str(score)}/{str(questionNum)} (w/o division)\n\n")
 
   #Play again?
   playAgainQ = ""
@@ -85,4 +85,4 @@ while playAgain == True:
     playAgain = True
   if playAgainQ in ["N", "No"]:
     playAgain = False
-    print ("Bye!")  
+    print ("Bye!")
