@@ -1,7 +1,7 @@
 from random import randint, choice #For random numbers and choices
-from operator import add, sub, mul, truediv #For operators
+from operator import add, sub, mul #For operators
 
-listOfoperations = (add, sub, mul, truediv) #Creats list of operations (addition, subtraction, multiplication)
+listOfoperations = (add, sub, mul) #Creats list of operations (addition, subtraction, multiplication)
 
 playAgain = True #Sets playAgain to True to start so game runs
 
