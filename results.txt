@@ -1,16 +1,16 @@
 Name: Callum
-Numbers: 1-10
+Numbers: 1–10
 Score: 3/3
 
 Name: Sandra
-Numbers: 1-5
+Numbers: 1–5
 Score: 2/2
 
 Name: Jack
-Numbers: 1-7
+Numbers: 1–7
 Score: 3/3
 
 Name: Jake
-Numbers: 1-12
+Numbers: 1–12
 Score: 19/20
 
